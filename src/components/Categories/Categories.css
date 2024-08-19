@@ -1,0 +1,19 @@
+.category-cards{
+    width: 30%;
+    min-width: 15rem;
+    height: 25rem;
+    background:rgba(255, 255, 255, 0.45);
+    background-image: url(https://blog.remitly.com/wp-content/uploads/2022/09/different-Nigerian-dishes-975x650.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: chartreuse;
+    background-repeat: no-repeat;
+    border-radius: 250px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

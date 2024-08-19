@@ -1,0 +1,122 @@
+{
+    "1":{
+        "id":1,
+        "name":"oha soup",
+        "price":"#2000",
+        "image":"https://th.bing.com/th/id/OIP._MlKzCpvz8jsVmT32U8RuAAAAA?rs=1&pid=ImgDetMain",
+        "desc": "Quality Traditional Swallow",
+        "category": "Mama swallow"
+    },
+    "2":{
+        "id":2,
+        "name":"fried rice",
+        "price":"#2000",
+        "image":"https://th.bing.com/th/id/OIP.CIIp4u_uMypL4-PnTP910QAAAA?rs=1&pid=ImgDetMain",
+        "desc": "Quality tasty food",
+        "category": "Mama dish"
+    },
+    "3":{
+        "id":3,
+        "name":"jellof rice",
+        "price":"#2000",
+        "image":"https://healthguide.ng/wp-content/uploads/2019/07/IMG_20190729_015830_814-468x420.jpg",
+        "desc": "Quality tasty food",
+        "category": "Mama dish"
+    },
+    "4":{
+        "id":4,
+        "name":"coconut rice",
+        "price":"#2000",
+        "image":"https://2.bp.blogspot.com/-psGSG4Twm54/V4fs40OGbLI/AAAAAAAAUsQ/2B_YgU7Y6-AXm3M74qGSsOcxFmpobAnFQCLcB/s1600/Nigerian%2BCoconut%2BRice%2Bsisiyemmie.%2B2.JPG",
+        "desc": "Quality tasty food",
+        "category": "Mama dish"
+    },
+    "5":{
+        "id":5,
+        "name":"ofada rice",
+        "price":"#2000",
+        "image":"https://th.bing.com/th/id/R.e67b18f288f240b4c126ae20999b9772?rik=FdL2NbOhQEA%2fAQ&riu=http%3a%2f%2fsisijemimah.com%2fwp-content%2fuploads%2f2015%2f12%2fOfada-stew-2.jpg&ehk=5t4o%2feNnjc8SQ5dJoK7iOC6o%2fcjM0JcLGOMOWi2ae9o%3d&risl=&pid=ImgRaw&r=0",
+        "desc": "Quality tasty food",
+        "category": "Mama dish"
+    },
+    "6":{
+        "id":6,
+        "name":"spaghetti",
+        "price":"#2000",
+        "image":"https://th.bing.com/th/id/R.361042515a19e2bd46c74c554fbcc32c?rik=xcVlhz59R3RT1g&pid=ImgRaw&r=0",
+        "desc": "Quality tasty food",
+        "category": "Mama dish"
+    },
+    "7":{
+        "id":7,
+        "name":"Eguisi",
+        "price":"#2000",
+        "image":"https://i.pinimg.com/originals/bd/06/e3/bd06e3b4de358b7c5700150e987b2850.jpg",
+        "desc": "Quality Traditional Swallow",
+        "category": "Mama swallow"
+    },
+    "8":{
+        "id":8,
+        "name":"ogbono",
+        "price":"#2000",
+        "image":"https://i.pinimg.com/originals/c3/ee/9b/c3ee9ba7c9c025157ae9c71121e244d8.jpg",
+        "desc": "Quality Traditional Swallow",
+        "category": "Mama swallow"
+    },
+    "9":{
+        "id":9,
+        "name":"vegetable",
+        "price":"#2000",
+        "image":"https://th.bing.com/th/id/R.8aa98dfc52db9b4227a2c1a0ea2175b3?rik=xgAgpg50Cwr%2fkA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-kKvcaD-NeqY%2fUj6pZHeCyYI%2fAAAAAAAADxA%2fdlxFwyO6gcY%2fs1600%2fVegetable%2bsoup%2bnigeria.JPG&ehk=9VZVRDSwvJDL121nD%2fhYxkR4cI39Mu4pbqPIDBWob4w%3d&risl=&pid=ImgRaw&r=0",
+        "desc": "Quality Traditional Swallow",
+        "category": "Mama swallow"
+    },
+    "10":{
+        "id":10,
+        "name":"okro",
+        "price":"#2000",
+        "image":"https://th.bing.com/th/id/OIP.-5yHbqua65WzaHvkdv8IiQHaHU?rs=1&pid=ImgDetMain",
+        "desc": "Quality Traditional Swallow",
+        "category": "Mama swallow"
+    },
+    "11":{
+        "id":11,
+        "name":"eggRoll",
+        "price":"#2000",
+        "image":"https://i.ytimg.com/vi/TaRI4-gTEQ4/maxresdefault.jpg",
+        "desc": "Sweet Snack",
+        "category": "Mama swallow"
+    },
+    "12":{
+        "id":12,
+        "name":"fishRoll",
+        "price":"#2000",
+        "image":"https://th.bing.com/th/id/OIP.uFkR6mLKiuxR-sePq0Z4_AHaFj?rs=1&pid=ImgDetMain",
+        "desc": "Sweet Snack",
+        "category": "Snack la Chaw"
+    },
+    "13":{
+        "id":13,
+        "name":"Small chops",
+        "price":"#2000",
+        "image":"https://i.pinimg.com/736x/d3/68/ed/d368edf4bfe8cfae3b07bd523ab86043--small-chops-nigerian-nigeria-food.jpg",
+        "desc": "Sweet Snack",
+        "category": "Snack la Chaw"
+    },
+    "14":{
+        "id":14,
+        "name":"MeatPie",
+        "price":"#2000",
+        "image":"https://th.bing.com/th/id/R.5c4f7a67fb5e164cdd7ea1215ac2ddb8?rik=3B9Wwj7C7dibvQ&riu=http%3a%2f%2fimages.bigoven.com%2fimage%2fupload%2fv1422016752%2fnigerian-meat-pies.jpg&ehk=P%2b96hdS6%2bArzso23ge6SoCPKtN8qu2tR3MJSV2ERvZc%3d&risl=&pid=ImgRaw&r=0",
+        "desc": "Sweet Snack",
+        "category": "Snack la Chaw"
+    },
+    "15":{
+        "id":15,
+        "name":"Buns",
+        "price":"#2000",
+        "image":"https://usercontent.one/wp/www.tinuolasblog.com/wp-content/uploads/2020/08/IMG_20200508_132339-scaled.jpg",
+        "desc": "Sweet Snack",
+        "category": "Snack la Chaw"
+    }
+}

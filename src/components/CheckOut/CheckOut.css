@@ -1,0 +1,99 @@
+.checkcon{
+    width: 100%;
+    height: 70vh;
+    background-color: bisque;
+    position: absolute;
+    top: 501px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.checkname{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(99, 98, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+   color: aliceblue;
+}
+.checkmain{
+    width: 100%;
+    height: 93%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.checkleft{
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+}
+.checkright{
+    width: 50%;
+    height: 100%;
+    background-color: plum;
+}
+.checkdetail{
+    width: 100%;
+    height: 10%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.checkmamaput{
+    width: 100%;
+    height: 50%;
+    background-color: bisque;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+.checktotal{
+    width: 100%;
+    height: 20%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.checkpay{
+    width: 100%;
+    height: 20%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.che{
+    width: 40%;
+    height: 40%;
+    border: 2px solid black;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+
+    
+
+.v{
+    font-size: 20px;
+    /* word-spacing: 30px; */
+}
+.d{
+    font-size: 18px;
+}

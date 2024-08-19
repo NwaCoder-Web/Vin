@@ -1,0 +1,63 @@
+.Header-Body{
+    width:90%;
+    height: 12vh;
+    /* background:bisque; */
+    display: flex;
+    justify-content: space-between;
+    color: rgb(241, 124, 124);
+    
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & img{
+         width: 4rem;
+         height: 3rem;
+         border-radius: 5px;
+    }
+
+}
+.menu{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+
+    & nav{
+        cursor: pointer;
+    }
+}
+.auth{
+    width: 10%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+    gap: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.auth-menu{
+width: 9rem;
+height: 7rem;
+/* background: #000; */
+position: absolute;
+top: 5rem;
+
+}
+.auth-menu > button{
+    width: 100%;
+    height: 50%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.Layout-Body{
+    width: 90vw;
+    height: auto;
+    min-height: 90vh;
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   flex-direction: column;
+    /* border: 10px solid white; */
+    border-radius: 30px;
+    /* background: #fadfa8; */
+ 
+
+}
+.outlets{
+    width: 100%;
+    min-height: 30rem;
+    height: auto;
+    /* background: #e00606; */
+    margin-top: -20rem;
+}
