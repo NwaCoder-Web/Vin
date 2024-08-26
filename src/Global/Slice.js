@@ -77,9 +77,9 @@ export const Slice=createSlice({
         addToCart:(state,{payload})=>{
             console.log(payload)
             // const find2 =state.users.find((e)=>e.id == e.payload)
-            const find=state.loggedInUser.carts.findIndex((e)=>e?.id == payload?.id)
+            const find=state.cart.findIndex((e)=>e?.id == payload?.id)
             if(find >=0){
-                state.loggedInUser.carts[find].Qty += 1;
+                state.cart[find].Qty += 1;
                 // state.loggedInUser.carts[find].Qty += 1;
                 // console.log(state, "state.loggedInUser")
                 // state.total = state.loggedInUser.carts.reduce((p, e)=> p + (e.Qty * e.price), 0)
@@ -89,11 +89,11 @@ export const Slice=createSlice({
                     Qty:1
                 }
             //  state.loggedInUser.carts.push(addValue)
-             state.loggedInUser.carts.push(addValue)
+             state.cart.push(addValue)
              
             }
             console.log(state, "state.loggedInUser")
-            state.total = state.loggedInUser.carts.reduce((p, e)=> p + (e.Qty * e.price), 0)
+            state.total = state.cart.reduce((p, e)=> p + (e.Qty * e.price), 0)
         },
         inCreaseQty:(state,{payload})=>{
             const array=state.loggedInUser.carts.map((e)=>{

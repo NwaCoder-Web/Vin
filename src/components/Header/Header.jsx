@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 const Header = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    const cart=useSelector((state)=>state.cart?.loggedInUser?.carts)
+    const cart=useSelector((state)=>state.cart?.loggedInUser?.cart)
     const loggedInUser=useSelector((state)=>state.cart?.loggedInUser)
     const loggedIn=useSelector((state)=>state.cart?.loggedIn)
     // console.log(cart, "cart")

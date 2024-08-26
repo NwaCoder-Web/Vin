@@ -1,9 +1,10 @@
 import React from "react";
 import './CartCardStyle.css'
 import {inCreaseQty,deCreaseQty,removeCart} from "../../Global/Slice"
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 const CartsCard = ({e}) => {
 const dispatch = useDispatch();
+// console.log(cart)
 
   return (
     <div className="cards-body">

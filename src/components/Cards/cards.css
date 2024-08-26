@@ -1,15 +1,18 @@
-.Cards-Holder{
+.Cards-Holder {
     width: 100%;
     height: auto;
-    /* background: white; */
     display: flex;
     justify-content: center;
     position: absolute;
     top: 500px;
     gap: 30px;
+    padding: 1rem;
+    box-sizing: border-box;
 }
-.cards-wrapper{
-    width: 75%;
+
+.cards-wrapper {
+    width: 90%;
+    max-width: 1200px;
     height: auto;
     min-height: 60vh;
     display: flex;
@@ -17,29 +20,33 @@
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 3rem;
+    box-sizing: border-box;
 }
-.cards{
-    width: 30%;
+
+.cards {
+    width: 100%;
+    max-width: 30%;
     min-width: 15rem;
-    height: 25rem;
-    background:rgba(18, 238, 165, 0.45);
-    /* border-radius: 30px; */
+    height: auto;
+    background: rgba(18, 238, 165, 0.45);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
-.menus{
-    width: 100%; 
+
+.menus {
+    width: 100%;
     height: 15%;
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.menus > nav{
+
+.menus > nav {
     width: 2rem;
     height: 2rem;
-    /* background: #e40606; */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -47,17 +54,17 @@
     cursor: pointer;
     font-size: 20px;
 }
-img{
-    width: 90%;
-    height: 60%;
+
+img {
+    width: 100%;
+    height: auto;
     object-fit: contain;
     border-radius: 50%;
-
-
 }
-.about{
+
+.about {
     width: 100%;
-    height:30%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +72,61 @@ img{
     font-size: 20px;
     gap: 10px;
 }
-.pp{
+
+.pp {
     font-size: 10px;
     font-family: cursive;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .Cards-Holder {
+        top: 300px;
+        gap: 15px;
+    }
+
+    .cards-wrapper {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .cards {
+        width: 100%;
+        min-width: unset;
+        height: auto;
+    }
+
+    .about {
+        font-size: 18px;
+    }
+
+    .pp {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Cards-Holder {
+        top: 200px;
+        gap: 10px;
+    }
+
+    .cards-wrapper {
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .cards {
+        width: 100%;
+        min-width: unset;
+        height: auto;
+    }
+
+    .about {
+        font-size: 16px;
+    }
+
+    .pp {
+        font-size: 7px;
+    }
 }

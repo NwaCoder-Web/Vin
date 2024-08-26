@@ -7,7 +7,7 @@ import {clearCart} from "../../Global/Slice.js"
 const Carts = () => {
   const dispatch = useDispatch();
   // const cart=useSelector((state)=>state.cart.cart)
-  const cart=useSelector((state)=>state.carts?.carts)
+  const cart=useSelector((state)=>state.cart?.cart)
   const loggedInUser=useSelector((state)=>state.cart?.loggedInUser)
   console.log(cart)
   function payKorapay() {
